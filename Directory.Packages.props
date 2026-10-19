@@ -2,12 +2,9 @@
   <PropertyGroup>
     <ManagePackageVersionsCentrally>true</ManagePackageVersionsCentrally>
   </PropertyGroup>
-
   <ItemGroup>
-    <PackageVersion Include="HotChocolate.AspNetCore"
-                    Version="16.6.8" />
-
-    <PackageVersion Include="HotChocolate.Data"
-                    Version="16.6.8" />
+    <PackageVersion Include="HotChocolate" Version="13.9.15" />
+    <PackageVersion Include="HotChocolate.AspNetCore" Version="16.6.8" />
+    <PackageVersion Include="HotChocolate.Data" Version="16.6.8" />
   </ItemGroup>
 </Project>
