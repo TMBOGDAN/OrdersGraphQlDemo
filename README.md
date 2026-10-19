@@ -1,16 +1,16 @@
 # OrdersGraphQlDemo
 
-Proiect demonstrativ ASP.NET Core pe .NET 10, cu pachetele HotChocolate pentru GraphQL.
+A demo ASP.NET Core project built with .NET 10, using HotChocolate packages for GraphQL.
 
-În starea curentă, aplicația expune `GET /`, care returnează `Hello World!`. Endpoint-ul GraphQL nu este încă implementat.
+Currently, the application exposes a `GET /` endpoint that returns `Hello World!`. The GraphQL endpoint has not been implemented yet.
 
-## Cerințe
+## Requirements
 
-- .NET SDK `10.0.401`, conform fișierului `global.json`.
+- .NET SDK `10.0.401`, as specified in the `global.json` file.
 
-## Rulare locală
+## Running Locally
 
-Din folderul proiectului:
+From the project's root directory, run:
 
 ```sh
 dotnet restore OrdersGraphQlDemo.slnx
@@ -18,10 +18,10 @@ dotnet build OrdersGraphQlDemo.slnx
 dotnet run --project OrdersGraphQlDemo.API/GraphQlDema.API.csproj --launch-profile http
 ```
 
-Aplicația este disponibilă la <http://localhost:5077/>.
+The application will be available at <http://localhost:5077/>.
 
-## Structură
+## Project Structure
 
-- `OrdersGraphQlDemo.API/` — aplicația ASP.NET Core.
-- `Directory.Packages.props` — versiunile pachetelor NuGet, administrate centralizat.
-- `OrdersGraphQlDemo.slnx` — soluția proiectului.
+- `OrdersGraphQlDemo.API/` — ASP.NET Core application.
+- `Directory.Packages.props` — centrally managed NuGet package versions.
+- `OrdersGraphQlDemo.slnx` — .NET solution file.
